@@ -24,3 +24,13 @@ python verification_test.py
 ## Acknowledgements
 - [Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/)
 - [Kudamm Dataset from Mapillary](http://www.mapillary.com)
+```
+@article{sunderhauf2015place,
+  title={Place recognition with convnet landmarks: Viewpoint-robust, condition-robust, training-free},
+  author={S{\"u}nderhauf, Niko and Shirazi, Sareh and Jacobson, Adam and Dayoub, Feras and Pepperell, Edward and Upcroft, Ben and Milford, Michael},
+  journal={Robotics: Science and Systems XI},
+  pages={1--10},
+  year={2015},
+  publisher={Robotics: Science and Systems Conference}
+}
+```
