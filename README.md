@@ -23,7 +23,7 @@ python verification_test.py
 
 ## Acknowledgements
 - [Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/)
-- [Kudamm Dataset from Mapillary](http://www.mapillary.com)
+- [Kudamm Dataset from Mapillary](https://www.mapillary.com/dataset/places)
 ```
 @article{sunderhauf2015place,
   title={Place recognition with convnet landmarks: Viewpoint-robust, condition-robust, training-free},
