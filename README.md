@@ -20,3 +20,7 @@ Autumn_mini_query/1418133788799845.jpg, Night_mini_ref/1418756794975225.jpg, 1
 ```bash
 python verification_test.py
 ```
+
+## Acknowledgements
+- [Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/)
+- [Kudamm Dataset from Mapillary](http://www.mapillary.com)
