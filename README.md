@@ -27,6 +27,11 @@ Our final testing datasets are selected from Oxford RobotCar, including two mini
 - **qAutumn_dbNight_val** (1600 pairs): Dynamic objects, large seasonal change and small viewpoint change (distance of two places is smaller than 5 meter)
 
 Dataset download (can only be downloaded via SUSTech network):
+1. Enter our NAS: http://10.16.54.112:5000
+2. Account: ee5346 Key: ee5346
+3. Enter the file station and download what you need
+
+File introduction:
 ```bash
 # original files including images, pointclouds, vo and gps
 Autumn_val.zip
