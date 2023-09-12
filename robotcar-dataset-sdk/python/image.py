@@ -32,20 +32,20 @@ def load_image(image_path, model=None, debayer=True):
         numpy.ndarray: demosaiced and optionally undistorted image
 
     """
-    # if model:
-    #     camera = model.camera
-    # else:
-    #     camera = re.search('(stereo|mono_(left|right|rear))', image_path).group(0)
-    # if camera == 'stereo':
-    #     pattern = BAYER_STEREO
-    # else:
-    #     pattern = BAYER_MONO
+    if model:
+        camera = model.camera
+    else:
+        camera = re.search('(stereo|mono_(left|right|rear))', image_path).group(0)
+    if camera == 'stereo':
+        pattern = BAYER_STEREO
+    else:
+        pattern = BAYER_MONO
 
     img = Image.open(image_path)
-    # if debayer:
-    #     img = demosaic(img, pattern)
-    # if model:
-    #     img = model.undistort(img)
+    if debayer:
+        img = demosaic(img, pattern)
+    if model:
+        img = model.undistort(img)
 
     return np.array(img).astype(np.uint8)
 

@@ -67,7 +67,8 @@ pointcloud, reflectance = build_pointcloud(args.laser_dir, args.poses_file, args
 
 pointcloud = np.dot(G_camera_posesource, pointcloud)
 
-image_path = os.path.join(args.image_dir, str(timestamp) + '.jpg')
+# image_path = os.path.join(args.image_dir, str(timestamp) + '.jpg')
+image_path = os.path.join(args.image_dir, str(timestamp) + '.png')
 image = load_image(image_path, model)
 
 uv, depth = model.project(pointcloud, image.shape)
