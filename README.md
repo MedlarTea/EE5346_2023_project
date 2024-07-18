@@ -1,3 +1,4 @@
+**For evaluating loop verification results in an unified framework, it is recommended to [GV-Bench](https://github.com/jarvisyjw/GV-Bench), which has been published in IROS 2024.**
 # EE5346 Project
 - Loop verification dataset for EE5346 project
 - Three datasets
